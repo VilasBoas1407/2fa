@@ -8,7 +8,7 @@ Metas
 - [ ]  Talvez seja necessário usar Azure Functions
 - [ ]  Segurança: os tokens devem ser criptografados por questão de segurança
 
-##Documentação
+# Documentação
 
 #### Infraestrutura
 ![image](https://github.com/VilasBoas1407/2fa/assets/29546480/59e8d23a-4b63-4456-b0a4-087b87f653be)
