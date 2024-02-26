@@ -1,0 +1,12 @@
+F:\Projetos\2fa\Configuration\2fa.Configuration.Dependency\bin\Debug\net6.0\2fa.Dependency.deps.json
+F:\Projetos\2fa\Configuration\2fa.Configuration.Dependency\bin\Debug\net6.0\2fa.Dependency.dll
+F:\Projetos\2fa\Configuration\2fa.Configuration.Dependency\bin\Debug\net6.0\2fa.Dependency.pdb
+F:\Projetos\2fa\Configuration\2fa.Configuration.Dependency\obj\Debug\net6.0\2fa.Dependency.csproj.AssemblyReference.cache
+F:\Projetos\2fa\Configuration\2fa.Configuration.Dependency\obj\Debug\net6.0\2fa.Dependency.GeneratedMSBuildEditorConfig.editorconfig
+F:\Projetos\2fa\Configuration\2fa.Configuration.Dependency\obj\Debug\net6.0\2fa.Dependency.AssemblyInfoInputs.cache
+F:\Projetos\2fa\Configuration\2fa.Configuration.Dependency\obj\Debug\net6.0\2fa.Dependency.AssemblyInfo.cs
+F:\Projetos\2fa\Configuration\2fa.Configuration.Dependency\obj\Debug\net6.0\2fa.Dependency.csproj.CoreCompileInputs.cache
+F:\Projetos\2fa\Configuration\2fa.Configuration.Dependency\obj\Debug\net6.0\2fa.Dependency.dll
+F:\Projetos\2fa\Configuration\2fa.Configuration.Dependency\obj\Debug\net6.0\refint\2fa.Dependency.dll
+F:\Projetos\2fa\Configuration\2fa.Configuration.Dependency\obj\Debug\net6.0\2fa.Dependency.pdb
+F:\Projetos\2fa\Configuration\2fa.Configuration.Dependency\obj\Debug\net6.0\ref\2fa.Dependency.dll

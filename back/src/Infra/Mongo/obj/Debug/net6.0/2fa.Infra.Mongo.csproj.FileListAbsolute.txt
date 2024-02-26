@@ -1,0 +1,12 @@
+F:\Projetos\2fa\Infra\Mongo\bin\Debug\net6.0\2fa.Infra.Mongo.deps.json
+F:\Projetos\2fa\Infra\Mongo\bin\Debug\net6.0\2fa.Infra.Mongo.dll
+F:\Projetos\2fa\Infra\Mongo\bin\Debug\net6.0\2fa.Infra.Mongo.pdb
+F:\Projetos\2fa\Infra\Mongo\obj\Debug\net6.0\2fa.Infra.Mongo.csproj.AssemblyReference.cache
+F:\Projetos\2fa\Infra\Mongo\obj\Debug\net6.0\2fa.Infra.Mongo.GeneratedMSBuildEditorConfig.editorconfig
+F:\Projetos\2fa\Infra\Mongo\obj\Debug\net6.0\2fa.Infra.Mongo.AssemblyInfoInputs.cache
+F:\Projetos\2fa\Infra\Mongo\obj\Debug\net6.0\2fa.Infra.Mongo.AssemblyInfo.cs
+F:\Projetos\2fa\Infra\Mongo\obj\Debug\net6.0\2fa.Infra.Mongo.csproj.CoreCompileInputs.cache
+F:\Projetos\2fa\Infra\Mongo\obj\Debug\net6.0\2fa.Infra.Mongo.dll
+F:\Projetos\2fa\Infra\Mongo\obj\Debug\net6.0\refint\2fa.Infra.Mongo.dll
+F:\Projetos\2fa\Infra\Mongo\obj\Debug\net6.0\2fa.Infra.Mongo.pdb
+F:\Projetos\2fa\Infra\Mongo\obj\Debug\net6.0\ref\2fa.Infra.Mongo.dll
