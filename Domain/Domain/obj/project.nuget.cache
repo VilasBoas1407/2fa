@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "LGVHRYRUmh0JspNKJ1iiC6+vGLWLD03pr4T0bEJt6s0nPT8De+EUuE+Mhk/GOGuKg7BVVwdKJgJCTD7HHGD2jg==",
+  "dgSpecHash": "BB6sPoiYEncA2wweeIPTbxz+CfUYx/N7SobyhHpIKCPIE9Le+NTpvF/8ILlPdTco9UvS0xW4DynprDnrpEXrHw==",
   "success": true,
-  "projectFilePath": "F:\\Projetos\\2fa\\Domain\\2fa.Models\\2fa.Domain.csproj",
+  "projectFilePath": "F:\\Projetos\\2fa\\Domain\\Domain\\2fa.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
