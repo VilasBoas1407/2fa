@@ -1,0 +1,10 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/web-api/v17/.suo
+/Configuration/2fa.Configuration.Dependency/bin/Debug/net6.0
+/Configuration/2fa.Configuration.Dependency/obj/Debug/net6.0/ref
+/Configuration/2fa.Configuration.Dependency/obj/Debug/net6.0/refint
+/Infra/Mongo
+/Configuration/2fa.Configuration.Dependency/obj/Debug/net6.0
