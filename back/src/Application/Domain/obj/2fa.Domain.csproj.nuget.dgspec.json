@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\Projetos\\2fa\\back\\src\\Aplication\\Domain\\2fa.Domain.csproj": {}
+    "F:\\Projetos\\2fa\\back\\src\\Application\\Domain\\2fa.Domain.csproj": {}
   },
   "projects": {
-    "F:\\Projetos\\2fa\\back\\src\\Aplication\\Domain\\2fa.Domain.csproj": {
+    "F:\\Projetos\\2fa\\back\\src\\Application\\Domain\\2fa.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Projetos\\2fa\\back\\src\\Aplication\\Domain\\2fa.Domain.csproj",
+        "projectUniqueName": "F:\\Projetos\\2fa\\back\\src\\Application\\Domain\\2fa.Domain.csproj",
         "projectName": "2fa.Domain",
-        "projectPath": "F:\\Projetos\\2fa\\back\\src\\Aplication\\Domain\\2fa.Domain.csproj",
+        "projectPath": "F:\\Projetos\\2fa\\back\\src\\Application\\Domain\\2fa.Domain.csproj",
         "packagesPath": "C:\\Users\\lucas\\.nuget\\packages\\",
-        "outputPath": "F:\\Projetos\\2fa\\back\\src\\Aplication\\Domain\\obj\\",
+        "outputPath": "F:\\Projetos\\2fa\\back\\src\\Application\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\lucas\\AppData\\Roaming\\NuGet\\NuGet.Config",
