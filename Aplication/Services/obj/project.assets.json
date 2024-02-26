@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\Projetos\\2fa\\Domain\\Services\\2fa.Services.csproj",
+      "projectUniqueName": "F:\\Projetos\\2fa\\Aplication\\Services\\2fa.Services.csproj",
       "projectName": "2fa.Services",
-      "projectPath": "F:\\Projetos\\2fa\\Domain\\Services\\2fa.Services.csproj",
+      "projectPath": "F:\\Projetos\\2fa\\Aplication\\Services\\2fa.Services.csproj",
       "packagesPath": "C:\\Users\\lucas\\.nuget\\packages\\",
-      "outputPath": "F:\\Projetos\\2fa\\Domain\\Services\\obj\\",
+      "outputPath": "F:\\Projetos\\2fa\\Aplication\\Services\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\lucas\\AppData\\Roaming\\NuGet\\NuGet.Config",
