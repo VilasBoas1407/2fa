@@ -1,0 +1,12 @@
+F:\Projetos\2fa\back\src\Configuration\TwoFactorAuthenticator.CrossCutting\bin\Debug\net6.0\TwoFactorAuthenticator.CrossCutting.deps.json
+F:\Projetos\2fa\back\src\Configuration\TwoFactorAuthenticator.CrossCutting\bin\Debug\net6.0\TwoFactorAuthenticator.CrossCutting.dll
+F:\Projetos\2fa\back\src\Configuration\TwoFactorAuthenticator.CrossCutting\bin\Debug\net6.0\TwoFactorAuthenticator.CrossCutting.pdb
+F:\Projetos\2fa\back\src\Configuration\TwoFactorAuthenticator.CrossCutting\obj\Debug\net6.0\TwoFactorAuthenticator.CrossCutting.csproj.AssemblyReference.cache
+F:\Projetos\2fa\back\src\Configuration\TwoFactorAuthenticator.CrossCutting\obj\Debug\net6.0\TwoFactorAuthenticator.CrossCutting.GeneratedMSBuildEditorConfig.editorconfig
+F:\Projetos\2fa\back\src\Configuration\TwoFactorAuthenticator.CrossCutting\obj\Debug\net6.0\TwoFactorAuthenticator.CrossCutting.AssemblyInfoInputs.cache
+F:\Projetos\2fa\back\src\Configuration\TwoFactorAuthenticator.CrossCutting\obj\Debug\net6.0\TwoFactorAuthenticator.CrossCutting.AssemblyInfo.cs
+F:\Projetos\2fa\back\src\Configuration\TwoFactorAuthenticator.CrossCutting\obj\Debug\net6.0\TwoFactorAuthenticator.CrossCutting.csproj.CoreCompileInputs.cache
+F:\Projetos\2fa\back\src\Configuration\TwoFactorAuthenticator.CrossCutting\obj\Debug\net6.0\TwoFactorAuthenticator.CrossCutting.dll
+F:\Projetos\2fa\back\src\Configuration\TwoFactorAuthenticator.CrossCutting\obj\Debug\net6.0\refint\TwoFactorAuthenticator.CrossCutting.dll
+F:\Projetos\2fa\back\src\Configuration\TwoFactorAuthenticator.CrossCutting\obj\Debug\net6.0\TwoFactorAuthenticator.CrossCutting.pdb
+F:\Projetos\2fa\back\src\Configuration\TwoFactorAuthenticator.CrossCutting\obj\Debug\net6.0\ref\TwoFactorAuthenticator.CrossCutting.dll

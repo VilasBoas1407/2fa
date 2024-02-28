@@ -1,0 +1,15 @@
+F:\Projetos\2fa\back\src\Infra\Mongo\bin\Debug\net6.0\TwoFactorAuthenticator.Infra.Mongo.deps.json
+F:\Projetos\2fa\back\src\Infra\Mongo\bin\Debug\net6.0\TwoFactorAuthenticator.Infra.Mongo.dll
+F:\Projetos\2fa\back\src\Infra\Mongo\bin\Debug\net6.0\TwoFactorAuthenticator.Infra.Mongo.pdb
+F:\Projetos\2fa\back\src\Infra\Mongo\bin\Debug\net6.0\TwoFactorAuthenticator.Domain.dll
+F:\Projetos\2fa\back\src\Infra\Mongo\bin\Debug\net6.0\TwoFactorAuthenticator.Domain.pdb
+F:\Projetos\2fa\back\src\Infra\Mongo\obj\Debug\net6.0\TwoFactorAuthenticator.Infra.Mongo.csproj.AssemblyReference.cache
+F:\Projetos\2fa\back\src\Infra\Mongo\obj\Debug\net6.0\TwoFactorAuthenticator.Infra.Mongo.GeneratedMSBuildEditorConfig.editorconfig
+F:\Projetos\2fa\back\src\Infra\Mongo\obj\Debug\net6.0\TwoFactorAuthenticator.Infra.Mongo.AssemblyInfoInputs.cache
+F:\Projetos\2fa\back\src\Infra\Mongo\obj\Debug\net6.0\TwoFactorAuthenticator.Infra.Mongo.AssemblyInfo.cs
+F:\Projetos\2fa\back\src\Infra\Mongo\obj\Debug\net6.0\TwoFactorAuthenticator.Infra.Mongo.csproj.CoreCompileInputs.cache
+F:\Projetos\2fa\back\src\Infra\Mongo\obj\Debug\net6.0\TwoFactorAuthenticator.Infra.Mongo.csproj.CopyComplete
+F:\Projetos\2fa\back\src\Infra\Mongo\obj\Debug\net6.0\TwoFactorAuthenticator.Infra.Mongo.dll
+F:\Projetos\2fa\back\src\Infra\Mongo\obj\Debug\net6.0\refint\TwoFactorAuthenticator.Infra.Mongo.dll
+F:\Projetos\2fa\back\src\Infra\Mongo\obj\Debug\net6.0\TwoFactorAuthenticator.Infra.Mongo.pdb
+F:\Projetos\2fa\back\src\Infra\Mongo\obj\Debug\net6.0\ref\TwoFactorAuthenticator.Infra.Mongo.dll

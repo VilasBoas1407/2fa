@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "mDGNmpecwu9gdQaZdJvaBLIQjYwm5XXnVj7yqpkDl0BxWYpF3EbjYk8GlpyQiMx3zoNnsqtxZ2cwnNRPIAod7g==",
+  "dgSpecHash": "mU+YIlvHdVxvWBPRxXuRIazISNjau8tNFHe6FhWf+zqwbldbM302wg9C5ScX2aguXCF/Hxd80Z2+/1J0hYzV8g==",
   "success": true,
-  "projectFilePath": "F:\\Projetos\\2fa\\back\\src\\Application\\Services\\2fa.Services.csproj",
+  "projectFilePath": "F:\\Projetos\\2fa\\back\\src\\Application\\Services\\TwoFactorAuthenticator.Services.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

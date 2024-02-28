@@ -1,15 +1,33 @@
+using Microsoft.Extensions.Configuration;
+using TwoFactorAuthenticator.Dependency.DependecyInjection;
+using TwoFactorAuthenticator.Dependency.Settings;
+using TwoFactorAuthenticator.Infra.Mongo.Context;
+using web_api.Controllers;
+
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
 
 builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+builder.Services.AddSingleton<Service>();
+
+ConfigureService.Configure(builder.Services);
+ConfigureRepository.Configure(builder.Services);
+
+builder.Services.AddSingleton(provider =>
+{
+    var mongoDbSettings = builder.Configuration.GetValue<MongoDBSettings>("MongoDataBase");
+    var connectionString = mongoDbSettings.ConnectionString; 
+    var databaseName = mongoDbSettings.DatabaseName;
+    return new MongoDbContext(connectionString, databaseName);
+});
+
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
+
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
