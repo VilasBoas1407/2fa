@@ -11,9 +11,9 @@
           "AutoMapper": "13.0.1",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0",
           "System.Configuration.ConfigurationManager": "8.0.0",
+          "TwoFactorAuthenticator.Application": "1.0.0",
           "TwoFactorAuthenticator.Domain": "1.0.0",
-          "TwoFactorAuthenticator.Infra.Mongo": "1.0.0",
-          "TwoFactorAuthenticator.Services": "1.0.0"
+          "TwoFactorAuthenticator.Infra.Mongo": "1.0.0"
         },
         "runtime": {
           "TwoFactorAuthenticator.CrossCutting.dll": {}
@@ -229,6 +229,14 @@
           }
         }
       },
+      "TwoFactorAuthenticator.Application/1.0.0": {
+        "dependencies": {
+          "TwoFactorAuthenticator.Domain": "1.0.0"
+        },
+        "runtime": {
+          "TwoFactorAuthenticator.Application.dll": {}
+        }
+      },
       "TwoFactorAuthenticator.Domain/1.0.0": {
         "dependencies": {
           "MongoDB.Bson": "2.24.0"
@@ -244,14 +252,6 @@
         },
         "runtime": {
           "TwoFactorAuthenticator.Infra.Mongo.dll": {}
-        }
-      },
-      "TwoFactorAuthenticator.Services/1.0.0": {
-        "dependencies": {
-          "TwoFactorAuthenticator.Domain": "1.0.0"
-        },
-        "runtime": {
-          "TwoFactorAuthenticator.Services.dll": {}
         }
       }
     }
@@ -430,17 +430,17 @@
       "path": "zstdsharp.port/0.7.3",
       "hashPath": "zstdsharp.port.0.7.3.nupkg.sha512"
     },
+    "TwoFactorAuthenticator.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
     "TwoFactorAuthenticator.Domain/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
     "TwoFactorAuthenticator.Infra.Mongo/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "TwoFactorAuthenticator.Services/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

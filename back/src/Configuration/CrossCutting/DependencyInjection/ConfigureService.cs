@@ -1,5 +1,5 @@
-﻿using Microsoft.Extensions.DependencyInjection;
-using Services_.Service.Users;
+﻿using Application.Services.Users;
+using Microsoft.Extensions.DependencyInjection;
 using TwoFactorAuthenticator.Models.Services;
 
 namespace TwoFactorAuthenticator.Dependency.DependecyInjection

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "RDusL0OnRCEddVM0k8AxDETpT+SxmrKeJ8+nds6m7KhUFl08RjX5YOUr2k4BNjbh0kQ2oU0N7pQ8IXoXtl1JSg==",
+  "dgSpecHash": "JnbCpWJfnwtDC7/uXijEqXqoRK1HH7Pur8vNEIq/k+KL/CWV9T+NUHlbUnTnCcrOBZyCURvAol2XPLq6kplwWQ==",
   "success": true,
   "projectFilePath": "F:\\Projetos\\2fa\\back\\src\\Configuration\\CrossCutting\\TwoFactorAuthenticator.CrossCutting.csproj",
   "expectedPackageFiles": [

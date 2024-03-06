@@ -1074,13 +1074,13 @@
     },
     "TwoFactorAuthenticator.Application/1.0.0": {
       "type": "project",
-      "path": "../../Application/Services/TwoFactorAuthenticator.Application.csproj",
-      "msbuildProject": "../../Application/Services/TwoFactorAuthenticator.Application.csproj"
+      "path": "../../Application/Application/TwoFactorAuthenticator.Application.csproj",
+      "msbuildProject": "../../Application/Application/TwoFactorAuthenticator.Application.csproj"
     },
     "TwoFactorAuthenticator.Domain/1.0.0": {
       "type": "project",
-      "path": "../../Application/Domain/TwoFactorAuthenticator.Domain.csproj",
-      "msbuildProject": "../../Application/Domain/TwoFactorAuthenticator.Domain.csproj"
+      "path": "../../Domain/Domain/TwoFactorAuthenticator.Domain.csproj",
+      "msbuildProject": "../../Domain/Domain/TwoFactorAuthenticator.Domain.csproj"
     },
     "TwoFactorAuthenticator.Infra.Mongo/1.0.0": {
       "type": "project",
@@ -1125,11 +1125,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "F:\\Projetos\\2fa\\back\\src\\Application\\Domain\\TwoFactorAuthenticator.Domain.csproj": {
-              "projectPath": "F:\\Projetos\\2fa\\back\\src\\Application\\Domain\\TwoFactorAuthenticator.Domain.csproj"
+            "F:\\Projetos\\2fa\\back\\src\\Application\\Application\\TwoFactorAuthenticator.Application.csproj": {
+              "projectPath": "F:\\Projetos\\2fa\\back\\src\\Application\\Application\\TwoFactorAuthenticator.Application.csproj"
             },
-            "F:\\Projetos\\2fa\\back\\src\\Application\\Services\\TwoFactorAuthenticator.Application.csproj": {
-              "projectPath": "F:\\Projetos\\2fa\\back\\src\\Application\\Services\\TwoFactorAuthenticator.Application.csproj"
+            "F:\\Projetos\\2fa\\back\\src\\Domain\\Domain\\TwoFactorAuthenticator.Domain.csproj": {
+              "projectPath": "F:\\Projetos\\2fa\\back\\src\\Domain\\Domain\\TwoFactorAuthenticator.Domain.csproj"
             },
             "F:\\Projetos\\2fa\\back\\src\\Infra\\Mongo\\TwoFactorAuthenticator.Infra.Mongo.csproj": {
               "projectPath": "F:\\Projetos\\2fa\\back\\src\\Infra\\Mongo\\TwoFactorAuthenticator.Infra.Mongo.csproj"

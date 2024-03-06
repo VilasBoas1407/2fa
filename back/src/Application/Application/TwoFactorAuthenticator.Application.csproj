@@ -8,11 +8,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Domain\TwoFactorAuthenticator.Domain.csproj" />
+    <Folder Include="Utils\" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Utils\" />
+    <ProjectReference Include="..\..\Domain\Domain\TwoFactorAuthenticator.Domain.csproj" />
   </ItemGroup>
 
 </Project>

@@ -4,75 +4,14 @@
     "F:\\Projetos\\2fa\\back\\src\\Configuration\\CrossCutting\\TwoFactorAuthenticator.CrossCutting.csproj": {}
   },
   "projects": {
-    "F:\\Projetos\\2fa\\back\\src\\Application\\Domain\\TwoFactorAuthenticator.Domain.csproj": {
+    "F:\\Projetos\\2fa\\back\\src\\Application\\Application\\TwoFactorAuthenticator.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Projetos\\2fa\\back\\src\\Application\\Domain\\TwoFactorAuthenticator.Domain.csproj",
-        "projectName": "TwoFactorAuthenticator.Domain",
-        "projectPath": "F:\\Projetos\\2fa\\back\\src\\Application\\Domain\\TwoFactorAuthenticator.Domain.csproj",
-        "packagesPath": "C:\\Users\\lucas\\.nuget\\packages\\",
-        "outputPath": "F:\\Projetos\\2fa\\back\\src\\Application\\Domain\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "C:\\Users\\lucas\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "net6.0"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
-            "projectReferences": {}
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
-          "dependencies": {
-            "MongoDB.Bson": {
-              "target": "Package",
-              "version": "[2.24.0, )"
-            }
-          },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "F:\\Projetos\\2fa\\back\\src\\Application\\Services\\TwoFactorAuthenticator.Application.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "F:\\Projetos\\2fa\\back\\src\\Application\\Services\\TwoFactorAuthenticator.Application.csproj",
+        "projectUniqueName": "F:\\Projetos\\2fa\\back\\src\\Application\\Application\\TwoFactorAuthenticator.Application.csproj",
         "projectName": "TwoFactorAuthenticator.Application",
-        "projectPath": "F:\\Projetos\\2fa\\back\\src\\Application\\Services\\TwoFactorAuthenticator.Application.csproj",
+        "projectPath": "F:\\Projetos\\2fa\\back\\src\\Application\\Application\\TwoFactorAuthenticator.Application.csproj",
         "packagesPath": "C:\\Users\\lucas\\.nuget\\packages\\",
-        "outputPath": "F:\\Projetos\\2fa\\back\\src\\Application\\Services\\obj\\",
+        "outputPath": "F:\\Projetos\\2fa\\back\\src\\Application\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\lucas\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -89,8 +28,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "F:\\Projetos\\2fa\\back\\src\\Application\\Domain\\TwoFactorAuthenticator.Domain.csproj": {
-                "projectPath": "F:\\Projetos\\2fa\\back\\src\\Application\\Domain\\TwoFactorAuthenticator.Domain.csproj"
+              "F:\\Projetos\\2fa\\back\\src\\Domain\\Domain\\TwoFactorAuthenticator.Domain.csproj": {
+                "projectPath": "F:\\Projetos\\2fa\\back\\src\\Domain\\Domain\\TwoFactorAuthenticator.Domain.csproj"
               }
             }
           }
@@ -148,11 +87,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "F:\\Projetos\\2fa\\back\\src\\Application\\Domain\\TwoFactorAuthenticator.Domain.csproj": {
-                "projectPath": "F:\\Projetos\\2fa\\back\\src\\Application\\Domain\\TwoFactorAuthenticator.Domain.csproj"
+              "F:\\Projetos\\2fa\\back\\src\\Application\\Application\\TwoFactorAuthenticator.Application.csproj": {
+                "projectPath": "F:\\Projetos\\2fa\\back\\src\\Application\\Application\\TwoFactorAuthenticator.Application.csproj"
               },
-              "F:\\Projetos\\2fa\\back\\src\\Application\\Services\\TwoFactorAuthenticator.Application.csproj": {
-                "projectPath": "F:\\Projetos\\2fa\\back\\src\\Application\\Services\\TwoFactorAuthenticator.Application.csproj"
+              "F:\\Projetos\\2fa\\back\\src\\Domain\\Domain\\TwoFactorAuthenticator.Domain.csproj": {
+                "projectPath": "F:\\Projetos\\2fa\\back\\src\\Domain\\Domain\\TwoFactorAuthenticator.Domain.csproj"
               },
               "F:\\Projetos\\2fa\\back\\src\\Infra\\Mongo\\TwoFactorAuthenticator.Infra.Mongo.csproj": {
                 "projectPath": "F:\\Projetos\\2fa\\back\\src\\Infra\\Mongo\\TwoFactorAuthenticator.Infra.Mongo.csproj"
@@ -203,6 +142,67 @@
         }
       }
     },
+    "F:\\Projetos\\2fa\\back\\src\\Domain\\Domain\\TwoFactorAuthenticator.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\Projetos\\2fa\\back\\src\\Domain\\Domain\\TwoFactorAuthenticator.Domain.csproj",
+        "projectName": "TwoFactorAuthenticator.Domain",
+        "projectPath": "F:\\Projetos\\2fa\\back\\src\\Domain\\Domain\\TwoFactorAuthenticator.Domain.csproj",
+        "packagesPath": "C:\\Users\\lucas\\.nuget\\packages\\",
+        "outputPath": "F:\\Projetos\\2fa\\back\\src\\Domain\\Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\lucas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "MongoDB.Bson": {
+              "target": "Package",
+              "version": "[2.24.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "F:\\Projetos\\2fa\\back\\src\\Infra\\Mongo\\TwoFactorAuthenticator.Infra.Mongo.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -227,8 +227,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "F:\\Projetos\\2fa\\back\\src\\Application\\Domain\\TwoFactorAuthenticator.Domain.csproj": {
-                "projectPath": "F:\\Projetos\\2fa\\back\\src\\Application\\Domain\\TwoFactorAuthenticator.Domain.csproj"
+              "F:\\Projetos\\2fa\\back\\src\\Domain\\Domain\\TwoFactorAuthenticator.Domain.csproj": {
+                "projectPath": "F:\\Projetos\\2fa\\back\\src\\Domain\\Domain\\TwoFactorAuthenticator.Domain.csproj"
               }
             }
           }

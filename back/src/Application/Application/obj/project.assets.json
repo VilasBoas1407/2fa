@@ -133,8 +133,8 @@
     },
     "TwoFactorAuthenticator.Domain/1.0.0": {
       "type": "project",
-      "path": "../Domain/TwoFactorAuthenticator.Domain.csproj",
-      "msbuildProject": "../Domain/TwoFactorAuthenticator.Domain.csproj"
+      "path": "../../Domain/Domain/TwoFactorAuthenticator.Domain.csproj",
+      "msbuildProject": "../../Domain/Domain/TwoFactorAuthenticator.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -169,8 +169,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "F:\\Projetos\\2fa\\back\\src\\Application\\Domain\\TwoFactorAuthenticator.Domain.csproj": {
-              "projectPath": "F:\\Projetos\\2fa\\back\\src\\Application\\Domain\\TwoFactorAuthenticator.Domain.csproj"
+            "F:\\Projetos\\2fa\\back\\src\\Domain\\Domain\\TwoFactorAuthenticator.Domain.csproj": {
+              "projectPath": "F:\\Projetos\\2fa\\back\\src\\Domain\\Domain\\TwoFactorAuthenticator.Domain.csproj"
             }
           }
         }

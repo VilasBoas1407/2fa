@@ -10,3 +10,15 @@ F:\Projetos\2fa\back\src\Application\Domain\obj\Debug\net6.0\TwoFactorAuthentica
 F:\Projetos\2fa\back\src\Application\Domain\obj\Debug\net6.0\refint\TwoFactorAuthenticator.Domain.dll
 F:\Projetos\2fa\back\src\Application\Domain\obj\Debug\net6.0\TwoFactorAuthenticator.Domain.pdb
 F:\Projetos\2fa\back\src\Application\Domain\obj\Debug\net6.0\ref\TwoFactorAuthenticator.Domain.dll
+F:\Projetos\2fa\back\src\Domain\Domain\bin\Debug\net6.0\TwoFactorAuthenticator.Domain.deps.json
+F:\Projetos\2fa\back\src\Domain\Domain\bin\Debug\net6.0\TwoFactorAuthenticator.Domain.dll
+F:\Projetos\2fa\back\src\Domain\Domain\bin\Debug\net6.0\TwoFactorAuthenticator.Domain.pdb
+F:\Projetos\2fa\back\src\Domain\Domain\obj\Debug\net6.0\TwoFactorAuthenticator.Domain.csproj.AssemblyReference.cache
+F:\Projetos\2fa\back\src\Domain\Domain\obj\Debug\net6.0\TwoFactorAuthenticator.Domain.GeneratedMSBuildEditorConfig.editorconfig
+F:\Projetos\2fa\back\src\Domain\Domain\obj\Debug\net6.0\TwoFactorAuthenticator.Domain.AssemblyInfoInputs.cache
+F:\Projetos\2fa\back\src\Domain\Domain\obj\Debug\net6.0\TwoFactorAuthenticator.Domain.AssemblyInfo.cs
+F:\Projetos\2fa\back\src\Domain\Domain\obj\Debug\net6.0\TwoFactorAuthenticator.Domain.csproj.CoreCompileInputs.cache
+F:\Projetos\2fa\back\src\Domain\Domain\obj\Debug\net6.0\TwoFactorAuthenticator.Domain.dll
+F:\Projetos\2fa\back\src\Domain\Domain\obj\Debug\net6.0\refint\TwoFactorAuthenticator.Domain.dll
+F:\Projetos\2fa\back\src\Domain\Domain\obj\Debug\net6.0\TwoFactorAuthenticator.Domain.pdb
+F:\Projetos\2fa\back\src\Domain\Domain\obj\Debug\net6.0\ref\TwoFactorAuthenticator.Domain.dll

@@ -1,0 +1,15 @@
+F:\Projetos\2fa\back\src\Application\Application\bin\Debug\net6.0\TwoFactorAuthenticator.Application.deps.json
+F:\Projetos\2fa\back\src\Application\Application\bin\Debug\net6.0\TwoFactorAuthenticator.Application.dll
+F:\Projetos\2fa\back\src\Application\Application\bin\Debug\net6.0\TwoFactorAuthenticator.Application.pdb
+F:\Projetos\2fa\back\src\Application\Application\bin\Debug\net6.0\TwoFactorAuthenticator.Domain.dll
+F:\Projetos\2fa\back\src\Application\Application\bin\Debug\net6.0\TwoFactorAuthenticator.Domain.pdb
+F:\Projetos\2fa\back\src\Application\Application\obj\Debug\net6.0\TwoFactorAuthenticator.Application.csproj.AssemblyReference.cache
+F:\Projetos\2fa\back\src\Application\Application\obj\Debug\net6.0\TwoFactorAuthenticator.Application.GeneratedMSBuildEditorConfig.editorconfig
+F:\Projetos\2fa\back\src\Application\Application\obj\Debug\net6.0\TwoFactorAuthenticator.Application.AssemblyInfoInputs.cache
+F:\Projetos\2fa\back\src\Application\Application\obj\Debug\net6.0\TwoFactorAuthenticator.Application.AssemblyInfo.cs
+F:\Projetos\2fa\back\src\Application\Application\obj\Debug\net6.0\TwoFactorAuthenticator.Application.csproj.CoreCompileInputs.cache
+F:\Projetos\2fa\back\src\Application\Application\obj\Debug\net6.0\TwoFactorAuthenticator.Application.csproj.CopyComplete
+F:\Projetos\2fa\back\src\Application\Application\obj\Debug\net6.0\TwoFactorAuthenticator.Application.dll
+F:\Projetos\2fa\back\src\Application\Application\obj\Debug\net6.0\refint\TwoFactorAuthenticator.Application.dll
+F:\Projetos\2fa\back\src\Application\Application\obj\Debug\net6.0\TwoFactorAuthenticator.Application.pdb
+F:\Projetos\2fa\back\src\Application\Application\obj\Debug\net6.0\ref\TwoFactorAuthenticator.Application.dll

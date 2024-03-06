@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "+ryFmjVwgYRO+ifOgMGcXzAs3raQU5a1Falg7K4kACJ9fAeHtCYhk+D846Hdpo7EoRzwOv6Ybsg5G+7t9kH4sA==",
+  "dgSpecHash": "VmYq1/odkf0H/Ywr995LvV0i/isGFOu0X9k3RtB9W6bbydXGqV2VJ/TYpM281fVMMp1Pj/oAThnM94rCyM7RGQ==",
   "success": true,
   "projectFilePath": "F:\\Projetos\\2fa\\back\\src\\Infra\\Mongo\\TwoFactorAuthenticator.Infra.Mongo.csproj",
   "expectedPackageFiles": [

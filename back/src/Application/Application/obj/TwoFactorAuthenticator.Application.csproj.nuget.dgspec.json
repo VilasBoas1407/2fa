@@ -28,8 +28,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "F:\\Projetos\\2fa\\back\\src\\Application\\Domain\\TwoFactorAuthenticator.Domain.csproj": {
-                "projectPath": "F:\\Projetos\\2fa\\back\\src\\Application\\Domain\\TwoFactorAuthenticator.Domain.csproj"
+              "F:\\Projetos\\2fa\\back\\src\\Domain\\Domain\\TwoFactorAuthenticator.Domain.csproj": {
+                "projectPath": "F:\\Projetos\\2fa\\back\\src\\Domain\\Domain\\TwoFactorAuthenticator.Domain.csproj"
               }
             }
           }
@@ -63,14 +63,14 @@
         }
       }
     },
-    "F:\\Projetos\\2fa\\back\\src\\Application\\Domain\\TwoFactorAuthenticator.Domain.csproj": {
+    "F:\\Projetos\\2fa\\back\\src\\Domain\\Domain\\TwoFactorAuthenticator.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Projetos\\2fa\\back\\src\\Application\\Domain\\TwoFactorAuthenticator.Domain.csproj",
+        "projectUniqueName": "F:\\Projetos\\2fa\\back\\src\\Domain\\Domain\\TwoFactorAuthenticator.Domain.csproj",
         "projectName": "TwoFactorAuthenticator.Domain",
-        "projectPath": "F:\\Projetos\\2fa\\back\\src\\Application\\Domain\\TwoFactorAuthenticator.Domain.csproj",
+        "projectPath": "F:\\Projetos\\2fa\\back\\src\\Domain\\Domain\\TwoFactorAuthenticator.Domain.csproj",
         "packagesPath": "C:\\Users\\lucas\\.nuget\\packages\\",
-        "outputPath": "F:\\Projetos\\2fa\\back\\src\\Application\\Domain\\obj\\",
+        "outputPath": "F:\\Projetos\\2fa\\back\\src\\Domain\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\lucas\\AppData\\Roaming\\NuGet\\NuGet.Config",
