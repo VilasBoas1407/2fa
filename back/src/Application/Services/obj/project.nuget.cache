@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "mU+YIlvHdVxvWBPRxXuRIazISNjau8tNFHe6FhWf+zqwbldbM302wg9C5ScX2aguXCF/Hxd80Z2+/1J0hYzV8g==",
+  "dgSpecHash": "YvuBqt4rxBhFktU9ITmFZRUbFgOa23jjFbYLkgTKer7ubKbvtsiXd6Nh8fpKch/ra969Ue3uhS+mnPX/WQu2MA==",
   "success": true,
   "projectFilePath": "F:\\Projetos\\2fa\\back\\src\\Application\\Services\\TwoFactorAuthenticator.Services.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\lucas\\.nuget\\packages\\mongodb.bson\\2.24.0\\mongodb.bson.2.24.0.nupkg.sha512",
+    "C:\\Users\\lucas\\.nuget\\packages\\system.memory\\4.5.5\\system.memory.4.5.5.nupkg.sha512",
+    "C:\\Users\\lucas\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\5.0.0\\system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

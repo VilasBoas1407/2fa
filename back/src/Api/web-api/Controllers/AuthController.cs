@@ -1,6 +1,8 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using TwoFactorAuthenticator.Models.Entity;
-using TwoFactorAuthenticator.Models.Models;
+﻿using AutoMapper;
+using Microsoft.AspNetCore.Mvc;
+using TwoFactorAuthenticator.Domain.Entity;
+using TwoFactorAuthenticator.Domain.Model;
+using TwoFactorAuthenticator.Models.Services;
 
 namespace WebApi.Controllers
 {
@@ -8,19 +10,22 @@ namespace WebApi.Controllers
     [Route("[controller]")]
     public class AuthController : ControllerBase
     {
-        private readonly Service _booksService;
+        private readonly IMapper _mapper;
 
-        public AuthController(Service booksService) =>
-            _booksService = booksService;
+        private readonly IUserService _userService;
+
+        public AuthController(IMapper mapper,IUserService userService) {
+            _userService = userService;
+            _mapper = mapper;
+        } 
 
         [HttpPost]
-        public IActionResult Post(UserModel user)
+        public async Task<IActionResult> Post([FromBody] UserModel userModel)
         {
-            return Ok();
+            var user = _mapper.Map<User>(userModel);
+            var response = await _userService.InsertAsync(user);
+            return StatusCode(response.StatusCode,response.Data);
         }
 
-        [HttpGet]
-        public async Task<List<UserEntity>> Get() =>
-            await _booksService.GetAsync();
     }
 }

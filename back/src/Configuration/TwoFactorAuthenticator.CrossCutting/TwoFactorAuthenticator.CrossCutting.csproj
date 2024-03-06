@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
@@ -8,11 +8,14 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="13.0.1" />
     <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="8.0.0" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="AutoMapper\" />
+    <ProjectReference Include="..\..\Application\Domain\TwoFactorAuthenticator.Domain.csproj" />
+    <ProjectReference Include="..\..\Application\Services\TwoFactorAuthenticator.Services.csproj" />
+    <ProjectReference Include="..\..\Infra\Mongo\TwoFactorAuthenticator.Infra.Mongo.csproj" />
   </ItemGroup>
 
 </Project>

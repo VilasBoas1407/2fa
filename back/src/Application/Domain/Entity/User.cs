@@ -1,6 +1,6 @@
-﻿namespace TwoFactorAuthenticator.Models.Entity
+﻿namespace TwoFactorAuthenticator.Domain.Entity
 {
-    public class UserEntity : BaseEntity
+    public class User : BaseEntity
     {
         public string Name { get; protected set; }
         public string Email { get; protected set; }

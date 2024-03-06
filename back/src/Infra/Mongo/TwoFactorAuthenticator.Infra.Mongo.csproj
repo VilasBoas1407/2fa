@@ -14,4 +14,8 @@
     <ProjectReference Include="..\..\Application\Domain\TwoFactorAuthenticator.Domain.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Mappings\" />
+  </ItemGroup>
+
 </Project>

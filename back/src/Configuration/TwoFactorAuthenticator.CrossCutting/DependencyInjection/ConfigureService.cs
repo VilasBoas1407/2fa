@@ -1,4 +1,6 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
+using Services.Users;
+using TwoFactorAuthenticator.Models.Services;
 
 namespace TwoFactorAuthenticator.Dependency.DependecyInjection
 {
@@ -6,7 +8,7 @@ namespace TwoFactorAuthenticator.Dependency.DependecyInjection
     {
         public static void Configure(IServiceCollection serviceCollection)
         {
-
+            serviceCollection.AddScoped<IUserService, UserService>();
         }
     }
 }

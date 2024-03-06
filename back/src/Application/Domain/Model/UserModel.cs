@@ -1,4 +1,4 @@
-﻿namespace TwoFactorAuthenticator.Models.Models
+﻿namespace TwoFactorAuthenticator.Domain.Model
 {
     public class UserModel
     {

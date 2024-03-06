@@ -1,7 +1,9 @@
-﻿using TwoFactorAuthenticator.Models.Entity;
+﻿using TwoFactorAuthenticator.Domain.Entity;
 
-namespace TwoFactorAuthenticator.Models.Repository
+namespace TwoFactorAuthenticator.Domain.Repository
 {
-    public interface IUserRepository : IBaseRepository<UserEntity>
-    { }
+    public interface IUserRepository : IBaseRepository<User>
+    { 
+        Task<bool> ExistEmail(string email);
+    }
 }

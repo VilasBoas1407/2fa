@@ -7,4 +7,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Domain\TwoFactorAuthenticator.Domain.csproj" />
+  </ItemGroup>
+
 </Project>

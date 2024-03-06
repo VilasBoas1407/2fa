@@ -1,47 +1,47 @@
-﻿using MongoDB.Driver;
+﻿using MongoDB.Bson;
+using MongoDB.Driver;
+using TwoFactorAuthenticator.Domain.Entity;
+using TwoFactorAuthenticator.Domain.Repository;
 using TwoFactorAuthenticator.Infra.Mongo.Context;
-using TwoFactorAuthenticator.Models.Repository;
 
 namespace TwoFactorAuthenticator.Infra.Mongo.Repository
 {
-    public class BaseRepository<T> : IBaseRepository<T> where T : class
+    public class BaseRepository<T> : IBaseRepository<T> where T : BaseEntity
     {
         private readonly IMongoCollection<T> _collection;
 
         public BaseRepository(MongoDbContext dbContext)
         {
-            string collectionName = typeof(T).Name.Replace("Entity", "");
-            _collection = dbContext.GetCollection<T>(collectionName);
+            _collection = dbContext.GetCollection<T>(typeof(T).Name);
         }
 
-        public Task DeleteAsync(string id)
-        {
-            throw new NotImplementedException();
-        }
+        public async Task DeleteAsync(ObjectId id)
+            => await _collection.DeleteOneAsync(x => x.Id == id);
 
-        public Task<bool> ExistAsync(string id)
-        {
-            throw new NotImplementedException();
-        }
+        public Task<bool> ExistAsync(ObjectId id)
+            => _collection.Find(x => x.Id == id).AnyAsync();
 
         public async Task<ICollection<T>> GetAllAsync()
+            => await _collection.Find(_ => true).ToListAsync();
+
+        public async Task<T> GetByIdAsync(ObjectId id)
+            => await _collection.Find(x => x.Id == id).FirstOrDefaultAsync();
+        
+        public async Task<T> InsertAsync(T item)
         {
-            return await _collection.Find(_ => true).ToListAsync();
+            item.Id = ObjectId.GenerateNewId();
+            item.CreatedAt = DateTime.UtcNow;
+            await _collection.InsertOneAsync(item);
+            return item;
         }
 
-        public Task<T> GetByIdAsync(string id)
+        public async Task<T> UpdateAsync(T item)
         {
-            throw new NotImplementedException();
-        }
+            item.UpdatedAt = DateTime.UtcNow;
 
-        public Task<T> InsertAsync(T item)
-        {
-            throw new NotImplementedException();
-        }
+            await _collection.ReplaceOneAsync(x => x.Id == item.Id, item);
 
-        public Task<T> UpdateAsync(T item)
-        {
-            throw new NotImplementedException();
+            return item;
         }
     }
 }
