@@ -6,3 +6,6 @@
 /back/.vs/ProjectEvaluation/web-api.projects.v7.bin
 /back/.vs/web-api/DesignTimeBuild/.dtbcache.v2
 /back/.vs/web-api/v17/.futdcache.v2
+/back/src/Application/Domain/obj
+/back/src/Application/Services/obj
+/back/src/Configuration/TwoFactorAuthenticator.CrossCutting/obj
