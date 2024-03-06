@@ -65,12 +65,12 @@
         }
       }
     },
-    "F:\\Projetos\\2fa\\back\\src\\Application\\Services\\TwoFactorAuthenticator.Services.csproj": {
+    "F:\\Projetos\\2fa\\back\\src\\Application\\Services\\TwoFactorAuthenticator.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Projetos\\2fa\\back\\src\\Application\\Services\\TwoFactorAuthenticator.Services.csproj",
-        "projectName": "TwoFactorAuthenticator.Services",
-        "projectPath": "F:\\Projetos\\2fa\\back\\src\\Application\\Services\\TwoFactorAuthenticator.Services.csproj",
+        "projectUniqueName": "F:\\Projetos\\2fa\\back\\src\\Application\\Services\\TwoFactorAuthenticator.Application.csproj",
+        "projectName": "TwoFactorAuthenticator.Application",
+        "projectPath": "F:\\Projetos\\2fa\\back\\src\\Application\\Services\\TwoFactorAuthenticator.Application.csproj",
         "packagesPath": "C:\\Users\\lucas\\.nuget\\packages\\",
         "outputPath": "F:\\Projetos\\2fa\\back\\src\\Application\\Services\\obj\\",
         "projectStyle": "PackageReference",
@@ -151,8 +151,8 @@
               "F:\\Projetos\\2fa\\back\\src\\Application\\Domain\\TwoFactorAuthenticator.Domain.csproj": {
                 "projectPath": "F:\\Projetos\\2fa\\back\\src\\Application\\Domain\\TwoFactorAuthenticator.Domain.csproj"
               },
-              "F:\\Projetos\\2fa\\back\\src\\Application\\Services\\TwoFactorAuthenticator.Services.csproj": {
-                "projectPath": "F:\\Projetos\\2fa\\back\\src\\Application\\Services\\TwoFactorAuthenticator.Services.csproj"
+              "F:\\Projetos\\2fa\\back\\src\\Application\\Services\\TwoFactorAuthenticator.Application.csproj": {
+                "projectPath": "F:\\Projetos\\2fa\\back\\src\\Application\\Services\\TwoFactorAuthenticator.Application.csproj"
               },
               "F:\\Projetos\\2fa\\back\\src\\Infra\\Mongo\\TwoFactorAuthenticator.Infra.Mongo.csproj": {
                 "projectPath": "F:\\Projetos\\2fa\\back\\src\\Infra\\Mongo\\TwoFactorAuthenticator.Infra.Mongo.csproj"
@@ -175,6 +175,10 @@
               "version": "[13.0.1, )"
             },
             "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "System.Configuration.ConfigurationManager": {
               "target": "Package",
               "version": "[8.0.0, )"
             }

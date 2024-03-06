@@ -148,9 +148,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\Projetos\\2fa\\back\\src\\Application\\Services\\TwoFactorAuthenticator.Services.csproj",
-      "projectName": "TwoFactorAuthenticator.Services",
-      "projectPath": "F:\\Projetos\\2fa\\back\\src\\Application\\Services\\TwoFactorAuthenticator.Services.csproj",
+      "projectUniqueName": "F:\\Projetos\\2fa\\back\\src\\Application\\Services\\TwoFactorAuthenticator.Application.csproj",
+      "projectName": "TwoFactorAuthenticator.Application",
+      "projectPath": "F:\\Projetos\\2fa\\back\\src\\Application\\Services\\TwoFactorAuthenticator.Application.csproj",
       "packagesPath": "C:\\Users\\lucas\\.nuget\\packages\\",
       "outputPath": "F:\\Projetos\\2fa\\back\\src\\Application\\Services\\obj\\",
       "projectStyle": "PackageReference",

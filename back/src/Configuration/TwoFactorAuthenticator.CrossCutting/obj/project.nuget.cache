@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "X+OkMHAqE1u7MhCtJSAo48Rocn0mKlTjuGS12eGGRMiWMPQD/6+AhPV3ikbxoOcbF39wY0Y9ZBFkk30dHPy51A==",
+  "dgSpecHash": "Ox6FHZvf4d7XB0ZwLJjV9109puj75j9v3h1kd3NIbpfunTI9Pg6nV6YxFCHoWdtCy9NtbF67rR1LAloY5vK/ww==",
   "success": true,
   "projectFilePath": "F:\\Projetos\\2fa\\back\\src\\Configuration\\TwoFactorAuthenticator.CrossCutting\\TwoFactorAuthenticator.CrossCutting.csproj",
   "expectedPackageFiles": [
@@ -21,9 +21,11 @@
     "C:\\Users\\lucas\\.nuget\\packages\\sharpcompress\\0.30.1\\sharpcompress.0.30.1.nupkg.sha512",
     "C:\\Users\\lucas\\.nuget\\packages\\snappier\\1.0.0\\snappier.1.0.0.nupkg.sha512",
     "C:\\Users\\lucas\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
+    "C:\\Users\\lucas\\.nuget\\packages\\system.configuration.configurationmanager\\8.0.0\\system.configuration.configurationmanager.8.0.0.nupkg.sha512",
     "C:\\Users\\lucas\\.nuget\\packages\\system.memory\\4.5.5\\system.memory.4.5.5.nupkg.sha512",
     "C:\\Users\\lucas\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
     "C:\\Users\\lucas\\.nuget\\packages\\system.security.accesscontrol\\5.0.0\\system.security.accesscontrol.5.0.0.nupkg.sha512",
+    "C:\\Users\\lucas\\.nuget\\packages\\system.security.cryptography.protecteddata\\8.0.0\\system.security.cryptography.protecteddata.8.0.0.nupkg.sha512",
     "C:\\Users\\lucas\\.nuget\\packages\\system.security.principal.windows\\5.0.0\\system.security.principal.windows.5.0.0.nupkg.sha512",
     "C:\\Users\\lucas\\.nuget\\packages\\zstdsharp.port\\0.7.3\\zstdsharp.port.0.7.3.nupkg.sha512"
   ],

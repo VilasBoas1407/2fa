@@ -15,21 +15,21 @@ namespace TwoFactorAuthenticator.Infra.Mongo.Repository
             _collection = dbContext.GetCollection<T>(typeof(T).Name);
         }
 
-        public async Task DeleteAsync(ObjectId id)
+        public async Task DeleteAsync(string id)
             => await _collection.DeleteOneAsync(x => x.Id == id);
 
-        public Task<bool> ExistAsync(ObjectId id)
+        public Task<bool> ExistAsync(string id)
             => _collection.Find(x => x.Id == id).AnyAsync();
 
         public async Task<ICollection<T>> GetAllAsync()
             => await _collection.Find(_ => true).ToListAsync();
 
-        public async Task<T> GetByIdAsync(ObjectId id)
+        public async Task<T> GetByIdAsync(string id)
             => await _collection.Find(x => x.Id == id).FirstOrDefaultAsync();
         
         public async Task<T> InsertAsync(T item)
         {
-            item.Id = ObjectId.GenerateNewId();
+            item.Id = ObjectId.GenerateNewId().ToString();
             item.CreatedAt = DateTime.UtcNow;
             await _collection.InsertOneAsync(item);
             return item;

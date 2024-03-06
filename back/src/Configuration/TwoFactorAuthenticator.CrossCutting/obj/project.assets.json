@@ -284,6 +284,25 @@
           "lib/netcoreapp2.0/_._": {}
         }
       },
+      "System.Configuration.ConfigurationManager/8.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Security.Cryptography.ProtectedData": "8.0.0"
+        },
+        "compile": {
+          "lib/net6.0/System.Configuration.ConfigurationManager.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/System.Configuration.ConfigurationManager.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
       "System.Memory/4.5.5": {
         "type": "package",
         "compile": {
@@ -332,6 +351,22 @@
           }
         }
       },
+      "System.Security.Cryptography.ProtectedData/8.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/System.Security.Cryptography.ProtectedData.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/System.Security.Cryptography.ProtectedData.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
       "System.Security.Principal.Windows/5.0.0": {
         "type": "package",
         "compile": {
@@ -364,6 +399,19 @@
           "lib/net6.0/ZstdSharp.dll": {}
         }
       },
+      "TwoFactorAuthenticator.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "TwoFactorAuthenticator.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/TwoFactorAuthenticator.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TwoFactorAuthenticator.Application.dll": {}
+        }
+      },
       "TwoFactorAuthenticator.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -389,19 +437,6 @@
         },
         "runtime": {
           "bin/placeholder/TwoFactorAuthenticator.Infra.Mongo.dll": {}
-        }
-      },
-      "TwoFactorAuthenticator.Services/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "dependencies": {
-          "TwoFactorAuthenticator.Domain": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/TwoFactorAuthenticator.Services.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/TwoFactorAuthenticator.Services.dll": {}
         }
       }
     }
@@ -803,6 +838,36 @@
         "version.txt"
       ]
     },
+    "System.Configuration.ConfigurationManager/8.0.0": {
+      "sha512": "JlYi9XVvIREURRUlGMr1F6vOFLk7YSY4p1vHo4kX3tQ0AGrjqlRWHDi66ImHhy6qwXBG3BJ6Y1QlYQ+Qz6Xgww==",
+      "type": "package",
+      "path": "system.configuration.configurationmanager/8.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "PACKAGE.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/System.Configuration.ConfigurationManager.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net6.0/_._",
+        "buildTransitive/netcoreapp2.0/System.Configuration.ConfigurationManager.targets",
+        "lib/net462/System.Configuration.ConfigurationManager.dll",
+        "lib/net462/System.Configuration.ConfigurationManager.xml",
+        "lib/net6.0/System.Configuration.ConfigurationManager.dll",
+        "lib/net6.0/System.Configuration.ConfigurationManager.xml",
+        "lib/net7.0/System.Configuration.ConfigurationManager.dll",
+        "lib/net7.0/System.Configuration.ConfigurationManager.xml",
+        "lib/net8.0/System.Configuration.ConfigurationManager.dll",
+        "lib/net8.0/System.Configuration.ConfigurationManager.xml",
+        "lib/netstandard2.0/System.Configuration.ConfigurationManager.dll",
+        "lib/netstandard2.0/System.Configuration.ConfigurationManager.xml",
+        "system.configuration.configurationmanager.8.0.0.nupkg.sha512",
+        "system.configuration.configurationmanager.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
     "System.Memory/4.5.5": {
       "sha512": "XIWiDvKPXaTveaB7HVganDlOCRoj03l+jrwNvcge/t8vhGYKvqV+dMv6G4SAX2NoNmN0wZfVPTAlFwZcZvVOUw==",
       "type": "package",
@@ -898,6 +963,42 @@
         "version.txt"
       ]
     },
+    "System.Security.Cryptography.ProtectedData/8.0.0": {
+      "sha512": "+TUFINV2q2ifyXauQXRwy4CiBhqvDEDZeVJU7qfxya4aRYOKzVBpN+4acx25VcPB9ywUN6C0n8drWl110PhZEg==",
+      "type": "package",
+      "path": "system.security.cryptography.protecteddata/8.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "PACKAGE.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/System.Security.Cryptography.ProtectedData.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net6.0/_._",
+        "buildTransitive/netcoreapp2.0/System.Security.Cryptography.ProtectedData.targets",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net462/System.Security.Cryptography.ProtectedData.dll",
+        "lib/net462/System.Security.Cryptography.ProtectedData.xml",
+        "lib/net6.0/System.Security.Cryptography.ProtectedData.dll",
+        "lib/net6.0/System.Security.Cryptography.ProtectedData.xml",
+        "lib/net7.0/System.Security.Cryptography.ProtectedData.dll",
+        "lib/net7.0/System.Security.Cryptography.ProtectedData.xml",
+        "lib/net8.0/System.Security.Cryptography.ProtectedData.dll",
+        "lib/net8.0/System.Security.Cryptography.ProtectedData.xml",
+        "lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll",
+        "lib/netstandard2.0/System.Security.Cryptography.ProtectedData.xml",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "system.security.cryptography.protecteddata.8.0.0.nupkg.sha512",
+        "system.security.cryptography.protecteddata.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
     "System.Security.Principal.Windows/5.0.0": {
       "sha512": "t0MGLukB5WAVU9bO3MGzvlGnyJPgUlcwerXn1kzBRjwLKixT96XV0Uza41W49gVd8zEMFu9vQEFlv0IOrytICA==",
       "type": "package",
@@ -971,6 +1072,11 @@
         "zstdsharp.port.nuspec"
       ]
     },
+    "TwoFactorAuthenticator.Application/1.0.0": {
+      "type": "project",
+      "path": "../../Application/Services/TwoFactorAuthenticator.Application.csproj",
+      "msbuildProject": "../../Application/Services/TwoFactorAuthenticator.Application.csproj"
+    },
     "TwoFactorAuthenticator.Domain/1.0.0": {
       "type": "project",
       "path": "../../Application/Domain/TwoFactorAuthenticator.Domain.csproj",
@@ -980,20 +1086,16 @@
       "type": "project",
       "path": "../../Infra/Mongo/TwoFactorAuthenticator.Infra.Mongo.csproj",
       "msbuildProject": "../../Infra/Mongo/TwoFactorAuthenticator.Infra.Mongo.csproj"
-    },
-    "TwoFactorAuthenticator.Services/1.0.0": {
-      "type": "project",
-      "path": "../../Application/Services/TwoFactorAuthenticator.Services.csproj",
-      "msbuildProject": "../../Application/Services/TwoFactorAuthenticator.Services.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
       "AutoMapper >= 13.0.1",
       "Microsoft.Extensions.DependencyInjection.Abstractions >= 8.0.0",
+      "System.Configuration.ConfigurationManager >= 8.0.0",
+      "TwoFactorAuthenticator.Application >= 1.0.0",
       "TwoFactorAuthenticator.Domain >= 1.0.0",
-      "TwoFactorAuthenticator.Infra.Mongo >= 1.0.0",
-      "TwoFactorAuthenticator.Services >= 1.0.0"
+      "TwoFactorAuthenticator.Infra.Mongo >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -1026,8 +1128,8 @@
             "F:\\Projetos\\2fa\\back\\src\\Application\\Domain\\TwoFactorAuthenticator.Domain.csproj": {
               "projectPath": "F:\\Projetos\\2fa\\back\\src\\Application\\Domain\\TwoFactorAuthenticator.Domain.csproj"
             },
-            "F:\\Projetos\\2fa\\back\\src\\Application\\Services\\TwoFactorAuthenticator.Services.csproj": {
-              "projectPath": "F:\\Projetos\\2fa\\back\\src\\Application\\Services\\TwoFactorAuthenticator.Services.csproj"
+            "F:\\Projetos\\2fa\\back\\src\\Application\\Services\\TwoFactorAuthenticator.Application.csproj": {
+              "projectPath": "F:\\Projetos\\2fa\\back\\src\\Application\\Services\\TwoFactorAuthenticator.Application.csproj"
             },
             "F:\\Projetos\\2fa\\back\\src\\Infra\\Mongo\\TwoFactorAuthenticator.Infra.Mongo.csproj": {
               "projectPath": "F:\\Projetos\\2fa\\back\\src\\Infra\\Mongo\\TwoFactorAuthenticator.Infra.Mongo.csproj"
@@ -1050,6 +1152,10 @@
             "version": "[13.0.1, )"
           },
           "Microsoft.Extensions.DependencyInjection.Abstractions": {
+            "target": "Package",
+            "version": "[8.0.0, )"
+          },
+          "System.Configuration.ConfigurationManager": {
             "target": "Package",
             "version": "[8.0.0, )"
           }

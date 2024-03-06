@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>TwoFactorAuthenticator.Dependency</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="13.0.1" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="8.0.0" />
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="8.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Application\Domain\TwoFactorAuthenticator.Domain.csproj" />
+    <ProjectReference Include="..\..\Application\Services\TwoFactorAuthenticator.Application.csproj" />
+    <ProjectReference Include="..\..\Infra\Mongo\TwoFactorAuthenticator.Infra.Mongo.csproj" />
+  </ItemGroup>
+
+</Project>
