@@ -34,6 +34,18 @@ Clonar o projeto e rodar a aplicação mobile
 
   ```
 
+#### Redis
+
+  - Mongo - Instalar mongo
+  ```bash
+  docker pull redis
+
+  ```
+  - Mongo - Criar instância do Redis
+
+  ```bash
+  docker run -d --name 2fa-key-vault -p 6379:6379 redis/redis-stack-server:latest
+  ```
 ## Documentação
 
 #### Infraestrutura
