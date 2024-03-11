@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
+using Services_.Utils;
 using TwoFactorAuthenticator.Domain.Entity;
 using TwoFactorAuthenticator.Domain.Model;
 using TwoFactorAuthenticator.Models.Services;
@@ -22,6 +23,7 @@ namespace WebApi.Controllers
         [HttpPost]
         public async Task<IActionResult> Post([FromBody] UserModel userModel)
         {
+            userModel.Password = CryptographyUtil.Encrypt(userModel.Password);
             var user = _mapper.Map<User>(userModel);
             var response = await _userService.InsertAsync(user);
             return StatusCode(response.StatusCode,response.Data);
