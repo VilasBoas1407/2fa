@@ -13,6 +13,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\Domain\Domain\TwoFactorAuthenticator.Domain.csproj" />
+    <ProjectReference Include="..\..\Infra\Redis\TwoFactorAuthenticator.Infra.Redis\TwoFactorAuthenticator.Infra.Redis.csproj" />
   </ItemGroup>
 
 </Project>

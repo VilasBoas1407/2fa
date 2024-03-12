@@ -6,5 +6,7 @@ namespace TwoFactorAuthenticator.Models.Services
     public interface IUserService
     {
         public Task<Response<User>> InsertAsync(User user);
+
+        public Task<string> InsertKey(string key);
     }
 }

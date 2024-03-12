@@ -23,6 +23,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TwoFactorAuthenticator.Appl
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TwoFactorAuthenticator.Infra.Mongo", "..\..\Infra\Mongo\TwoFactorAuthenticator.Infra.Mongo.csproj", "{F679F74D-D0CA-4E42-BC44-11E370A25B11}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwoFactorAuthenticator.Infra.Redis", "..\..\Infra\Redis\TwoFactorAuthenticator.Infra.Redis\TwoFactorAuthenticator.Infra.Redis.csproj", "{BF73A768-3E2A-430C-8852-6F1493EDD6A0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -49,6 +51,10 @@ Global
 		{F679F74D-D0CA-4E42-BC44-11E370A25B11}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F679F74D-D0CA-4E42-BC44-11E370A25B11}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F679F74D-D0CA-4E42-BC44-11E370A25B11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF73A768-3E2A-430C-8852-6F1493EDD6A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF73A768-3E2A-430C-8852-6F1493EDD6A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF73A768-3E2A-430C-8852-6F1493EDD6A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF73A768-3E2A-430C-8852-6F1493EDD6A0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -59,6 +65,7 @@ Global
 		{9C281FB7-0DCD-41F5-B7D8-E53C7F0B2CE6} = {E3D9CBCD-6E63-478F-8E4D-187AB97EC166}
 		{58B6A383-2C5B-402E-94CA-2CA5F2208AAD} = {69322B9E-0799-4510-856C-B8A37A5DA806}
 		{F679F74D-D0CA-4E42-BC44-11E370A25B11} = {7826D642-24F3-4A80-87CA-41181F5861BC}
+		{BF73A768-3E2A-430C-8852-6F1493EDD6A0} = {7826D642-24F3-4A80-87CA-41181F5861BC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6F6EC1BF-960F-4279-9DE6-6C44E4A03C51}

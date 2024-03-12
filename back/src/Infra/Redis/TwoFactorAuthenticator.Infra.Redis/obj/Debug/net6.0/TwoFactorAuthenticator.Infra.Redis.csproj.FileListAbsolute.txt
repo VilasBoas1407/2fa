@@ -1,0 +1,12 @@
+F:\Projetos\2fa\back\src\Infra\Redis\TwoFactorAuthenticator.Infra.Redis\bin\Debug\net6.0\TwoFactorAuthenticator.Infra.Redis.deps.json
+F:\Projetos\2fa\back\src\Infra\Redis\TwoFactorAuthenticator.Infra.Redis\bin\Debug\net6.0\TwoFactorAuthenticator.Infra.Redis.dll
+F:\Projetos\2fa\back\src\Infra\Redis\TwoFactorAuthenticator.Infra.Redis\bin\Debug\net6.0\TwoFactorAuthenticator.Infra.Redis.pdb
+F:\Projetos\2fa\back\src\Infra\Redis\TwoFactorAuthenticator.Infra.Redis\obj\Debug\net6.0\TwoFactorAuthenticator.Infra.Redis.csproj.AssemblyReference.cache
+F:\Projetos\2fa\back\src\Infra\Redis\TwoFactorAuthenticator.Infra.Redis\obj\Debug\net6.0\TwoFactorAuthenticator.Infra.Redis.GeneratedMSBuildEditorConfig.editorconfig
+F:\Projetos\2fa\back\src\Infra\Redis\TwoFactorAuthenticator.Infra.Redis\obj\Debug\net6.0\TwoFactorAuthenticator.Infra.Redis.AssemblyInfoInputs.cache
+F:\Projetos\2fa\back\src\Infra\Redis\TwoFactorAuthenticator.Infra.Redis\obj\Debug\net6.0\TwoFactorAuthenticator.Infra.Redis.AssemblyInfo.cs
+F:\Projetos\2fa\back\src\Infra\Redis\TwoFactorAuthenticator.Infra.Redis\obj\Debug\net6.0\TwoFactorAuthenticator.Infra.Redis.csproj.CoreCompileInputs.cache
+F:\Projetos\2fa\back\src\Infra\Redis\TwoFactorAuthenticator.Infra.Redis\obj\Debug\net6.0\TwoFactorAuthenticator.Infra.Redis.dll
+F:\Projetos\2fa\back\src\Infra\Redis\TwoFactorAuthenticator.Infra.Redis\obj\Debug\net6.0\refint\TwoFactorAuthenticator.Infra.Redis.dll
+F:\Projetos\2fa\back\src\Infra\Redis\TwoFactorAuthenticator.Infra.Redis\obj\Debug\net6.0\TwoFactorAuthenticator.Infra.Redis.pdb
+F:\Projetos\2fa\back\src\Infra\Redis\TwoFactorAuthenticator.Infra.Redis\obj\Debug\net6.0\ref\TwoFactorAuthenticator.Infra.Redis.dll

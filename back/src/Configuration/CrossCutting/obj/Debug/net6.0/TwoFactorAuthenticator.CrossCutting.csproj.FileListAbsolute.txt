@@ -23,9 +23,11 @@ F:\Projetos\2fa\back\src\Configuration\CrossCutting\bin\Debug\net6.0\TwoFactorAu
 F:\Projetos\2fa\back\src\Configuration\CrossCutting\bin\Debug\net6.0\TwoFactorAuthenticator.Application.dll
 F:\Projetos\2fa\back\src\Configuration\CrossCutting\bin\Debug\net6.0\TwoFactorAuthenticator.Domain.dll
 F:\Projetos\2fa\back\src\Configuration\CrossCutting\bin\Debug\net6.0\TwoFactorAuthenticator.Infra.Mongo.dll
+F:\Projetos\2fa\back\src\Configuration\CrossCutting\bin\Debug\net6.0\TwoFactorAuthenticator.Infra.Redis.dll
 F:\Projetos\2fa\back\src\Configuration\CrossCutting\bin\Debug\net6.0\TwoFactorAuthenticator.Application.pdb
 F:\Projetos\2fa\back\src\Configuration\CrossCutting\bin\Debug\net6.0\TwoFactorAuthenticator.Domain.pdb
 F:\Projetos\2fa\back\src\Configuration\CrossCutting\bin\Debug\net6.0\TwoFactorAuthenticator.Infra.Mongo.pdb
+F:\Projetos\2fa\back\src\Configuration\CrossCutting\bin\Debug\net6.0\TwoFactorAuthenticator.Infra.Redis.pdb
 F:\Projetos\2fa\back\src\Configuration\CrossCutting\obj\Debug\net6.0\TwoFactorAuthenticator.CrossCutting.csproj.AssemblyReference.cache
 F:\Projetos\2fa\back\src\Configuration\CrossCutting\obj\Debug\net6.0\TwoFactorAuthenticator.CrossCutting.GeneratedMSBuildEditorConfig.editorconfig
 F:\Projetos\2fa\back\src\Configuration\CrossCutting\obj\Debug\net6.0\TwoFactorAuthenticator.CrossCutting.AssemblyInfoInputs.cache

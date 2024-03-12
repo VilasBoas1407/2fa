@@ -29,5 +29,12 @@ namespace WebApi.Controllers
             return StatusCode(response.StatusCode,response.Data);
         }
 
+        [HttpGet]
+        public async Task<IActionResult> Get()
+        {
+            var response = await _userService.InsertKey("Olá mundo!");
+
+            return Ok(response);
+        }
     }
 }

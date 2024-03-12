@@ -2,7 +2,9 @@ F:\Projetos\2fa\back\src\Application\Application\bin\Debug\net6.0\TwoFactorAuthe
 F:\Projetos\2fa\back\src\Application\Application\bin\Debug\net6.0\TwoFactorAuthenticator.Application.dll
 F:\Projetos\2fa\back\src\Application\Application\bin\Debug\net6.0\TwoFactorAuthenticator.Application.pdb
 F:\Projetos\2fa\back\src\Application\Application\bin\Debug\net6.0\TwoFactorAuthenticator.Domain.dll
+F:\Projetos\2fa\back\src\Application\Application\bin\Debug\net6.0\TwoFactorAuthenticator.Infra.Redis.dll
 F:\Projetos\2fa\back\src\Application\Application\bin\Debug\net6.0\TwoFactorAuthenticator.Domain.pdb
+F:\Projetos\2fa\back\src\Application\Application\bin\Debug\net6.0\TwoFactorAuthenticator.Infra.Redis.pdb
 F:\Projetos\2fa\back\src\Application\Application\obj\Debug\net6.0\TwoFactorAuthenticator.Application.csproj.AssemblyReference.cache
 F:\Projetos\2fa\back\src\Application\Application\obj\Debug\net6.0\TwoFactorAuthenticator.Application.GeneratedMSBuildEditorConfig.editorconfig
 F:\Projetos\2fa\back\src\Application\Application\obj\Debug\net6.0\TwoFactorAuthenticator.Application.AssemblyInfoInputs.cache

@@ -17,6 +17,7 @@
     <ProjectReference Include="..\..\Application\Application\TwoFactorAuthenticator.Application.csproj" />
     <ProjectReference Include="..\..\Domain\Domain\TwoFactorAuthenticator.Domain.csproj" />
     <ProjectReference Include="..\..\Infra\Mongo\TwoFactorAuthenticator.Infra.Mongo.csproj" />
+    <ProjectReference Include="..\..\Infra\Redis\TwoFactorAuthenticator.Infra.Redis\TwoFactorAuthenticator.Infra.Redis.csproj" />
   </ItemGroup>
 
 </Project>
