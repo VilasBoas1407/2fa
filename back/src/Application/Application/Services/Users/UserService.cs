@@ -1,6 +1,6 @@
 ﻿using TwoFactorAuthenticator.Domain.Entity;
-using TwoFactorAuthenticator.Domain.Model;
 using TwoFactorAuthenticator.Domain.Repository;
+using TwoFactorAuthenticator.Models.Response;
 using TwoFactorAuthenticator.Models.Services;
 
 namespace Application.Services.Users
@@ -14,16 +14,16 @@ namespace Application.Services.Users
             _userRepository = userRepository;
         }
 
-        public async Task<ServiceResponse<User>> InsertAsync(User user)
+        public async Task<Response<User>> InsertAsync(User user)
         {
             var existUser = await _userRepository.ExistEmail(user.Email);
 
             if (existUser)
-                return new ServiceResponse<User>(400, "Email já utilizado.");
+                return new Response<User>(400, "Email já utilizado.");
 
             await _userRepository.InsertAsync(user);
 
-            return new ServiceResponse<User>(200, "Usuário criado com sucesso.");
+            return new Response<User>(200, "Usuário criado com sucesso.");
         }
     }
 }

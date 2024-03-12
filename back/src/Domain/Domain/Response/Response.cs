@@ -1,15 +1,16 @@
-﻿namespace TwoFactorAuthenticator.Domain.Model
+﻿namespace TwoFactorAuthenticator.Models.Response
 {
-    public class ServiceResponse<T>
+    public class Response<T>
     {
-        public ServiceResponse(int statusCode,string message) {
-            StatusCode= statusCode;
-            Data = new ResponseData<T>(message);
-        }
-        public ServiceResponse(int statusCode, string message, T data)
+        public Response(int statusCode, string message)
         {
             StatusCode = statusCode;
-            Data = new ResponseData<T>(message,data);
+            Data = new ResponseData<T>(message);
+        }
+        public Response(int statusCode, string message, T data)
+        {
+            StatusCode = statusCode;
+            Data = new ResponseData<T>(message, data);
         }
 
 

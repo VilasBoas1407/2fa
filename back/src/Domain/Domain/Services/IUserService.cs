@@ -1,10 +1,10 @@
 ﻿using TwoFactorAuthenticator.Domain.Entity;
-using TwoFactorAuthenticator.Domain.Model;
+using TwoFactorAuthenticator.Models.Response;
 
 namespace TwoFactorAuthenticator.Models.Services
 {
     public interface IUserService
     {
-        public Task<ServiceResponse<User>> InsertAsync(User user);
+        public Task<Response<User>> InsertAsync(User user);
     }
 }
