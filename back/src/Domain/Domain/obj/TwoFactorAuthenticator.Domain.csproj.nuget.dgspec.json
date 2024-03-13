@@ -43,6 +43,10 @@
             "MongoDB.Bson": {
               "target": "Package",
               "version": "[2.24.0, )"
+            },
+            "StackExchange.Redis": {
+              "target": "Package",
+              "version": "[2.7.33, )"
             }
           },
           "imports": [

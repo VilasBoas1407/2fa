@@ -1,12 +1,10 @@
 ﻿using StackExchange.Redis;
-using System;
 using TwoFactorAuthenticator.Domain.Entity;
 using TwoFactorAuthenticator.Domain.Repository;
-using TwoFactorAuthenticator.Infra.Redis.Factory;
 using TwoFactorAuthenticator.Models.Factory;
 using TwoFactorAuthenticator.Models.Response;
 using TwoFactorAuthenticator.Models.Services;
-
+f
 namespace Application.Services.Users
 {
     public class UserService : IUserService
