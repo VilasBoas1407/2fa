@@ -1,8 +1,10 @@
-﻿namespace TwoFactorAuthenticator.Models.Services.Redis
+﻿using TwoFactorAuthenticator.Models.Entity;
+
+namespace TwoFactorAuthenticator.Models.Services.Redis
 {
     public interface ITokenService
     {
-        Task CreateToken();
-        Task GetTokenByUser(string userId);
+        bool CreateToken(Token userToken);
+        Token GetTokenByUser(string userId);
     }
 }

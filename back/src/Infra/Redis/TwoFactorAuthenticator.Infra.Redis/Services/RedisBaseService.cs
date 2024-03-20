@@ -1,6 +1,7 @@
 ﻿using MongoDB.Bson.IO;
 using StackExchange.Redis;
 using System.Text.Json;
+using TwoFactorAuthenticator.Infra.Redis.Factory;
 using TwoFactorAuthenticator.Models.Factory;
 using TwoFactorAuthenticator.Models.Services.Redis;
 
@@ -13,7 +14,7 @@ namespace TwoFactorAuthenticator.Infra.Redis.Services
         public RedisBaseService(IRedisConnectionFactory redisConnectionFactory)
         {
             var redis = redisConnectionFactory.Connection;
-            IDatabase _database = redis.GetDatabase();
+            _database = redis.GetDatabase();
         }
 
         public T GetData<T>(string key)
@@ -28,7 +29,7 @@ namespace TwoFactorAuthenticator.Infra.Redis.Services
 
         public bool SetData<T>(string key, T value, DateTimeOffset expirationTime)
         {
-            TimeSpan expiryTime = expirationTime.DateTime.Subtract(DateTime.Now);
+            TimeSpan expiryTime = expirationTime.Subtract(DateTimeOffset.Now);
             var isSet = _database.StringSet(key, JsonSerializer.Serialize(value), expiryTime);
             return isSet;
         }

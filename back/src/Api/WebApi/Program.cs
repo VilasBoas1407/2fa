@@ -44,7 +44,7 @@ builder.Services.AddSingleton(provider =>
 
 var configAutoMapper = new MapperConfiguration(c =>
 {
-    c.AddProfile(new ModelToDtoProfile());
+    c.AddProfile(new ModelToEntityProfile());
 });
 
 IMapper mapper = configAutoMapper.CreateMapper();

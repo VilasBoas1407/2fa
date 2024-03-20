@@ -1,4 +1,5 @@
-﻿using TwoFactorAuthenticator.Models.Factory;
+﻿using TwoFactorAuthenticator.Models.Entity;
+using TwoFactorAuthenticator.Models.Factory;
 using TwoFactorAuthenticator.Models.Services.Redis;
 
 namespace TwoFactorAuthenticator.Infra.Redis.Services
@@ -10,14 +11,16 @@ namespace TwoFactorAuthenticator.Infra.Redis.Services
         {
         }
 
-        public Task CreateToken()
+        public bool CreateToken(Token userToken)
         {
-            throw new NotImplementedException();
+            var key = Guid.NewGuid().ToString();
+            var experationDate = DateTime.UtcNow.AddMinutes(5);
+            return SetData(key, userToken, experationDate);
         }
 
-        public Task GetTokenByUser(string userId)
+        public Token GetTokenByUser(string userId)
         {
-            throw new NotImplementedException();
+            return GetData<Token>(userId);
         }
     }
 }
