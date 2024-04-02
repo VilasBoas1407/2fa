@@ -34,11 +34,28 @@ Clonar o projeto e rodar a aplicação mobile
 
   ```
 
+#### Redis
+
+  - Mongo - Instalar mongo
+  ```bash
+  docker pull redis
+
+  ```
+  - Mongo - Criar instância do Redis
+
+  ```bash
+  docker run -d --name 2fa-key-vault -p 6379:6379 redis/redis-stack-server:latest
+  ```
 ## Documentação
 
 #### Infraestrutura
 ![image](https://github.com/VilasBoas1407/2fa/assets/29546480/59e8d23a-4b63-4456-b0a4-087b87f653be)
 
+#### Fluxo obtenção de token
+![image](https://github.com/VilasBoas1407/Two-Factor-Authenticator/assets/29546480/585fe69c-ccbd-483a-a823-d22fd291d7d5)
+
+#### Fluxo atualização de tokens
+![image](https://github.com/VilasBoas1407/Two-Factor-Authenticator/assets/29546480/891d2c49-9b99-4dcc-8a22-b02c14467004)
 
 ## Screenshots
 
