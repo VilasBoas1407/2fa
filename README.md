@@ -10,9 +10,7 @@ Criar um aplicativo de 2FA(two-factor-authentication) tendo um app aonde irá gu
 **Back-end:** .Net Core, MongoDB, Redis
 
 ## Prótotipo
-<html>
-<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FNWpuCexL42mHCASqiufvSE%2F2fa-two-factor-authentication%3Ftype%3Ddesign%26node-id%3D0%253A1%26mode%3Ddesign%26t%3DkSKacLmiioLmlZ23-1" allowfullscreen></iframe>
-</html>
+[https://www.figma.com/file/LKQ4FJ4bTnCSjedbRpk931/Sample-File](https://www.figma.com/file/NWpuCexL42mHCASqiufvSE/2fa-two-factor-authentication?type=design&node-id=0%3A1&mode=design&t=kSKacLmiioLmlZ23-1)](https://www.figma.com/file/NWpuCexL42mHCASqiufvSE/2fa-two-factor-authentication?type=design&node-id=0%3A1&mode=design&t=kSKacLmiioLmlZ23-1)
 
 ## Instalação
 Clonar o projeto e rodar a aplicação mobile
