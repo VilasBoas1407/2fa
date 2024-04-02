@@ -1,26 +1,55 @@
-﻿using TwoFactorAuthenticator.Models.Entity;
+﻿using StackExchange.Redis;
+using TwoFactorAuthenticator.Models.Entity;
 using TwoFactorAuthenticator.Models.Factory;
 using TwoFactorAuthenticator.Models.Services.Redis;
 
 namespace TwoFactorAuthenticator.Infra.Redis.Services
 {
-    public class TokenService : RedisBaseService, ITokenService
+    public class TokenService : ITokenService
     {
+        private readonly IDatabase _database;
+        private readonly string _key= "user:{0}:tokens";
         public TokenService(IRedisConnectionFactory redisConnectionFactory) 
-            : base(redisConnectionFactory)
         {
+
+            var redis = redisConnectionFactory.Connection;
+            _database = redis.GetDatabase();
         }
 
-        public bool CreateToken(Token userToken)
+        public async Task<bool> CreateToken(string userId,Token token)
         {
-            var key = Guid.NewGuid().ToString();
-            var experationDate = DateTime.UtcNow.AddMinutes(5);
-            return SetData(key, userToken, experationDate);
+            TimeSpan experationDate = TimeSpan.FromMinutes(5);
+            try
+            {
+                string key = string.Format(_key, userId);
+                await _database.HashSetAsync(key, token.Name, token.Value);
+                await _database.KeyExpireAsync(userId, experationDate);
+
+                return true;
+            }
+            catch (Exception)
+            {
+                return false;
+            }
         }
 
-        public Token GetTokenByUser(string userId)
+        public async Task<IList<Token>> GetTokenByUser(string userId)
         {
-            return GetData<Token>(userId);
+            string key = string.Format(_key,userId);
+            HashEntry[] storedTokens = await _database.HashGetAllAsync(key);
+
+            List<Token> tokenList = new();
+
+            if (storedTokens.Length > 0)
+            {
+                foreach (var token in storedTokens)
+                {
+                    tokenList.Add(new Token(token.Name,token.Value.ToString()));
+                }
+
+            }
+
+            return tokenList;
         }
     }
 }

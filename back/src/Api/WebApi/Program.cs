@@ -3,7 +3,9 @@ using Microsoft.AspNetCore.Mvc;
 using System.Text.Json.Serialization;
 using TwoFactorAuthenticator.Dependency.AutoMapper;
 using TwoFactorAuthenticator.Dependency.DependecyInjection;
+using TwoFactorAuthenticator.Dependency.Logger;
 using TwoFactorAuthenticator.Infra.Mongo.Context;
+using WebApi.HostedService;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -34,6 +36,7 @@ builder.Services
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddRouting(options => options.LowercaseUrls = true);
+builder.Services.AddHostedService<TokenHostedService>();
 
 builder.Services.AddSingleton(provider =>
 {
@@ -48,6 +51,7 @@ var configAutoMapper = new MapperConfiguration(c =>
 });
 
 IMapper mapper = configAutoMapper.CreateMapper();
+
 builder.Services.AddSingleton(mapper);
 
 ConfigureService.Configure(builder.Services);

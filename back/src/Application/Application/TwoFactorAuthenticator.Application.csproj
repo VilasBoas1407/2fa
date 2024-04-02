@@ -16,4 +16,8 @@
     <ProjectReference Include="..\..\Infra\Redis\TwoFactorAuthenticator.Infra.Redis\TwoFactorAuthenticator.Infra.Redis.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Services\Token\" />
+  </ItemGroup>
+
 </Project>

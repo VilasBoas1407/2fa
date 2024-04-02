@@ -2,17 +2,13 @@
 {
     public class Token 
     {
-        public Token(string idUser, string idToken, string tokenName, int value)
+        public Token(string tokenName, string value)
         {
-            IdUser = idUser;
-            IdToken = idToken;
-            TokenName = tokenName;
+            Name = tokenName;
             Value = value;
         }
 
-        public string IdUser { get; protected set; }
-        public string IdToken { get;protected set; }
-        public string TokenName { get;protected set; }
-        public int Value { get;protected set; }
+        public string Name { get;protected set; }
+        public string Value { get;protected set; }
     }
 }

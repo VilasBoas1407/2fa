@@ -26,7 +26,7 @@ namespace WebApi.Controllers
         [HttpGet("{userId}")]
         public async Task<IActionResult> Get([FromRoute] string userId)
         {
-            var response = _tokenService.GetTokenByUser(userId);    
+            var response = await _tokenService.GetTokenByUser(userId);    
             return Ok(response);
         }
 
@@ -35,7 +35,7 @@ namespace WebApi.Controllers
         {
             var token = _mapper.Map<Token>(tokenModel);
 
-            var response = _tokenService.CreateToken(token);
+            var response = await _tokenService.CreateToken(tokenModel.IdUser,token);
 
             return Ok(response);
         }

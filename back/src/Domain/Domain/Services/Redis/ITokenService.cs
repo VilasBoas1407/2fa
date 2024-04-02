@@ -4,7 +4,7 @@ namespace TwoFactorAuthenticator.Models.Services.Redis
 {
     public interface ITokenService
     {
-        bool CreateToken(Token userToken);
-        Token GetTokenByUser(string userId);
+        Task<bool> CreateToken(string userId,Token token);
+        Task<IList<Token>> GetTokenByUser(string userId);
     }
 }
